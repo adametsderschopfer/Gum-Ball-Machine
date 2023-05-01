@@ -1,0 +1,24 @@
+{
+  "name": "ts-gum-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.ts",
+  "scripts": {
+    "dev": "nodemon --watch ./app --exec ts-node ./app/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adametsderschopfer/ts-gum-machine.git"
+  },
+  "author": "adametsderschopfer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adametsderschopfer/ts-gum-machine/issues"
+  },
+  "homepage": "https://github.com/adametsderschopfer/ts-gum-machine#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}
